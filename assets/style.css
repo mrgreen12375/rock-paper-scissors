@@ -1,0 +1,42 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h1{
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingPage {
+    height: 700px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/rps.png");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+}
+
+.landingPage a {
+    position: relative;
+    bottom: 70px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+
+.landingPage a:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
