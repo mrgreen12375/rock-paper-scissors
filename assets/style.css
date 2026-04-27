@@ -1,5 +1,8 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-image: url("./images/background.png");
+    background-size: cover;
+    background-position: center;
 }
 
 header h1{
@@ -8,6 +11,7 @@ header h1{
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -37,6 +41,78 @@ main {
 
 .landingPage a:hover {
     cursor: pointer;
-    background-color: black;
-    color: white;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.gameBoarder {
+    height: 700px;
+    width: 80%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.gameDisplay {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gameDisplay h2 {
+    text-align: center;
+}
+
+.gameDisplay h3 {
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+}
+
+.gameDisplay img {
+    height: 200px;
+    width: 300px;
+    border: 5px solid black;
+}
+
+.player1 {
+    padding: 20px 20px 20px 0px;
+  }
+
+.player2 {
+    padding: 20px 20px 20px 0px;
+    transform: scaleX(-1);
+}
+
+.gameOptions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameOptions h2{
+    text-align: center;
+}
+
+.gameOptionsList {
+    height: 100px;
+    display: flex;
+}
+
+.gameOptionsList img{
+    height: 100px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 5px 5px 5px 0px;
+    margin: 0px 40px;
+}
+
+.gameOptionsList img:hover {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
