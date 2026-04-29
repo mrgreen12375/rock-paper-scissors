@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
@@ -15,20 +15,24 @@
             <div class="gameDisplay">
                 <div>
                     <h2>Player</h2>
-                    <img class="player1" src="./assets/images/rock.png" />
+                    <div id="playerCard">
+                        <img class="player" src="./assets/images/rock.png" />
+                    </div>
                 </div>
                 <h3>VS</h3>
                 <div>
                     <h2>CPU</h2>
-                    <img class="player2" src="./assets/images/scissors.png" />
+                    <div id="cpuCard">
+                        <img class="cpu" src="./assets/images/scissors.png" />
+                    </div>
                 </div>
             </div>
             <div class="gameOptions">
                 <h2>Choose Your Weapon</h2>
                 <div class="gameOptionsList">
-                    <img src="./assets/images/rock.png" />
-                    <img src="./assets/images/paper.png" />
-                    <img src="./assets/images/scissors.png" />
+                    <img id="rock" src="./assets/images/rock.png" />
+                    <img id="paper" src="./assets/images/paper.png" />
+                    <img id="scissors" src="./assets/images/scissors.png" />
                 </div>
             </div>
         </section>

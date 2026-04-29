@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("./images/background.png");
+    background-image: url("../images/background.png");
     background-size: cover;
     background-position: center;
 }
@@ -22,7 +22,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./images/rps.png");
+    background-image: url("../images/rps.png");
     background-size: cover;
     background-position: center;
     border: 5px solid black;
@@ -77,11 +77,11 @@ main {
     border: 5px solid black;
 }
 
-.player1 {
+.player {
     padding: 20px 20px 20px 0px;
   }
 
-.player2 {
+.cpu {
     padding: 20px 20px 20px 0px;
     transform: scaleX(-1);
 }
