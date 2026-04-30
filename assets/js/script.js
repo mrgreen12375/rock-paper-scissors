@@ -4,6 +4,8 @@ const cpuCard = document.querySelector('#cpuCard');
 const playerResults = document.querySelector('#playerResults');
 const cpuResults = document.querySelector('#cpuResults');
 
+const versus = document.querySelector('#versus');
+
 const rock = document.querySelector('#rock');
 const paper = document.querySelector('#paper');
 const scissors = document.querySelector('#scissors');
@@ -36,6 +38,7 @@ function startGame(playerWeapon){
     if (playerWeapon === cpuWeapon) {
         playerResults.innerHTML = `<h2>Tied</>`
         cpuResults.innerHTML = `<h2>Tied</>`
+        versus.setAttribute('style', 'top: 55px;');
       } else if (
         (playerWeapon === "rock" && cpuWeapon === "scissors") || 
         (playerWeapon === "paper" && cpuWeapon === "rock") || 
@@ -43,12 +46,12 @@ function startGame(playerWeapon){
       ) {
         playerResults.innerHTML = `<h2>Winner</>`
         cpuResults.innerHTML = `<h2>Loser</>`
+        versus.setAttribute('style', 'top: 55px;');
       } else {
         playerResults.innerHTML = `<h2>Loser</>`
-        cpuResults.innerHTML = `<h2>Winner</>`      }
-
-    console.log("player weapon: " + playersWeapon);
-    console.log("cpu weapon:" + cpuWeapon);
+        cpuResults.innerHTML = `<h2>Winner</>`      
+        versus.setAttribute('style', 'top: 55px;');
+      }
 }
 
 

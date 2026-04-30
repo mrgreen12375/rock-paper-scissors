@@ -64,11 +64,11 @@ main {
     text-align: center;
 }
 
-.gameDisplay h3 {
+#versus {
     font-size: 40px;
     font-weight: bold;
     position: relative;
-    top: 25px;
+    top: 30px;
 }
 
 .gameDisplay img {
