@@ -163,7 +163,7 @@ main {
         margin: 0px 10px;
     }
 
-    .gameDisplay h3 {
+   #versus {
         top: 30px;
     }
 }
@@ -184,7 +184,7 @@ main {
         width: 80px;
     }
 
-    .gameDisplay h3 {
+    #versus {
         font-size: 30px;
     }
 }
