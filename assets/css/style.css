@@ -116,3 +116,37 @@ main {
     background-color: white;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
+
+.landingPage a {
+    position: relative;
+    bottom: 70px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-size: 100% 100%;
+    }
+
+    .landingPage {
+        background-size: 100% 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .landingPage a {
+        position: relative;
+        bottom: 70px;
+        padding: 3px 15px;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+}
