@@ -136,6 +136,7 @@ main {
 
     .landingPage {
         height: 500px;
+        width: 80%;
         background-size: 100% 100%;
         margin-bottom: 40px;
     }
@@ -147,6 +148,7 @@ main {
 
     .gameBoarder {
         height: 500px;
+        width: 80%;
     }
 
     .gameDisplay img {
