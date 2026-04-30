@@ -100,6 +100,7 @@ main {
 .gameOptionsList {
     height: 100px;
     display: flex;
+    align-items: center;
 }
 
 .gameOptionsList img{
@@ -143,10 +144,36 @@ main {
         bottom: 50px;
         padding: 3px 15px;
     }
+
+    .gameDisplay img {
+        height: 100px;
+        width: 150px;
+    }
+
+    .gameOptionsList img{
+        height: 50px;
+        width: 100px;
+        margin: 0px 10px;
+    }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 550px) {
     header h1{
         font-size: 25px;
+    }
+
+    .gameDisplay img {
+        height: 60px;
+        width: 100px;
+        border: 3px solid black;
+    }
+
+    .gameOptionsList img{
+        height: 40px;
+        width: 80px;
+    }
+
+    .gameDisplay h3 {
+        font-size: 30px;
     }
 }
