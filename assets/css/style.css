@@ -145,6 +145,10 @@ main {
         padding: 3px 15px;
     }
 
+    .gameBoarder {
+        height: 500px;
+    }
+
     .gameDisplay img {
         height: 100px;
         width: 150px;
@@ -156,8 +160,8 @@ main {
         margin: 0px 10px;
     }
 
-    .gameBoarder {
-        height: 500px;
+    .gameDisplay h3 {
+        top: 30px;
     }
 }
 
