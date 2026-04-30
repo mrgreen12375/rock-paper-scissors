@@ -17,8 +17,8 @@ main {
 }
 
 .landingPage {
-    height: 700px;
-    width: 80%;
+    height: 650px;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,8 +46,8 @@ main {
 }
 
 .gameBoarder {
-    height: 700px;
-    width: 80%;
+    height: 650px;
+    width: 70%;
     border: 5px solid black;
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ main {
     padding: 5px 30px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
     body {
         height: 100vh;
     }
@@ -165,7 +165,7 @@ main {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     header h1{
         font-size: 25px;
     }
