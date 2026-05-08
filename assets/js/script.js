@@ -1,3 +1,5 @@
+const gameDisplay = document.querySelector('.gameDisplay');
+
 const playerCard = document.querySelector('#playerCard');
 const cpuCard = document.querySelector('#cpuCard');
 
@@ -38,7 +40,8 @@ function startGame(playerWeapon){
     if (playerWeapon === cpuWeapon) {
         playerResults.innerHTML = `<h2>Tied</>`
         cpuResults.innerHTML = `<h2>Tied</>`
-        versus.setAttribute('style', 'top: 55px;');
+        versus.setAttribute('style', 'top: 53.5px;');
+        gameDisplay.setAttribute('style', 'margin-top: -47px;')
       } else if (
         (playerWeapon === "rock" && cpuWeapon === "scissors") || 
         (playerWeapon === "paper" && cpuWeapon === "rock") || 
@@ -46,11 +49,13 @@ function startGame(playerWeapon){
       ) {
         playerResults.innerHTML = `<h2>Winner</>`
         cpuResults.innerHTML = `<h2>Loser</>`
-        versus.setAttribute('style', 'top: 55px;');
+        versus.setAttribute('style', 'top: 53.5px;');
+        gameDisplay.setAttribute('style', 'margin-top: -47px;')
       } else {
         playerResults.innerHTML = `<h2>Loser</>`
         cpuResults.innerHTML = `<h2>Winner</>`      
-        versus.setAttribute('style', 'top: 55px;');
+        versus.setAttribute('style', 'top: 53.5px;');
+        gameDisplay.setAttribute('style', 'margin-top: -47px;')
       }
 }
 
